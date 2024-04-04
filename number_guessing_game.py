@@ -5,7 +5,7 @@ upper_bound=int(input("Enter upper bound:- "))
 
 #generating randon numbers between upper and lower bound
 x=random.randint(lower_bound,upper_bound)
-
+ 
 #calculating minimum number of cases required
 print("\n\tYou have only ", 
       round(math.log(upper_bound-lower_bound+1,2)),
