@@ -27,7 +27,7 @@ while count < math.log(upper_bound-lower_bound+1,2):
         print("You guessed too small!")
     else:
         print("You guessed too high!")
-#if guessing is more than minimum required attempts, print this.
+#if guessing is more than minimum required attempts, print this. 
 if count>=math.log(upper_bound-lower_bound+1,2):
     print("\nThe number is %d" %x)
     print("\tBetter luck next time!!")
