@@ -4,7 +4,7 @@ colors=['pink','green','yellow','white','red','black','blue','grey','purple','si
 color=random.choice(colors)
 print("guess the characters of color: ")
 guesses=''
-turns=12
+turns=12 
 while turns>0:
     incorrect_guess=0
     for char in color:
